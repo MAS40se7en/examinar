@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bglight {
+    background-image: url("../assets/signUpIn_bglight.png");
+}
+.bgdark {
+    background-image: url("../assets/signUpIn_bgdark.png");
+}
+.user-bglight {
+    background-image: url("../assets/user_bglight.png");
+    background-size: cover;
+}
+.user-bgdark {
+    background-image: url("../assets/user_bgdark.png");
+    background-size: cover;
+}
+.admin-bglight {
+    background-image: url("../assets/admin_bglight.png");
+    background-size: cover;
+}
+.admin-bgdark {
+    background-image: url("../assets/admin_bgdark.png");
+    background-size: cover;
+}
+.profile-bglight {
+    background-image: url("../assets/userProfile_bglight.png");
+}
+.profile-bgdark {
+    background-image: url("../assets/userProfile_bgdark.png");
+}
+.users-bglight {
+    background-image: url("../assets/users_bglight.png");
+    background-size: cover;
+}
+.users-bgdark {
+    background-image: url("../assets/users_bgdark.png");
+    background-size: cover;
+}
+.project-bglight {
+    background-image: url("../assets/project_bglight.png");
+    background-size: cover;
+}
+.project-bgdark {
+    background-image: url("../assets/project_bgdark.png");
+    background-size: cover;
+}
+
+.question-bglight {
+    background-image: url("../assets/question_bglight.png");
+    background-size: cover;
+}
+.question-bgdark {
+    background-image: url("../assets/question_bgdark.png");
+    background-size: cover;
+}
+
+.create-project-bglight {
+    background-image: url("../assets/create_project_bglight.png");
+    background-size: cover;
+}
+.create-project-bgdark {
+    background-image: url("../assets/create_project_bgdark.png");
+    background-size: cover;
+}
+.start-question-bglight {
+    background-image: url("../assets/start_question_bglight.png");
+    background-size: cover;
+}
+.start-question-bgdark {
+    background-image: url("../assets/start_question_bgdark.png");
+    background-size: cover;
+}
+
+.usersTable {
+    height: 800px;
+}
+
+.projectsTable {
+    height: 700px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-resizer {
+    display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #8e8e8e;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}
